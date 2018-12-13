@@ -57,10 +57,11 @@ If you have any questions, please post an issue [here](https://github.com/akzaid
 
 * **Accessing the Minecraft server using a client**
     - Overview of the Minecraft Server, client API, Spigot, and your Python environment
-    - _Lab 1, getting started: using VSCode to edit and run Python code from your computer to your Minecraft server_
-* **Defining and structruing variables for teleportation and flight** 
+    - _Lab 1, getting started: Accessing labs from an editor and submitting Python code to our Minecraft server_
+* **Defining and structuring variables for teleportation and flight** 
     - _Lab 2, build a house: Simple arithmetic for building complicated objects_
 * **Chatting with Strings: Interacting with other players**
+    - _Extra lab: Creating a guessing game using the chatbox_
 
 
 ****
