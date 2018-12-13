@@ -11,27 +11,35 @@ Each day of class consists of instruction and two hands on labs. Participants wi
 
 ## IMPORTANT: Local Setup
 
-If you are bringing in your own computer, please follow the following steps to set up your client:
+Three computers with the Minecraft client will be provided during the workshop. However, it is recommended you bring your own Windows / MacOS computer and install python 2.7 and the Minecraft client by following the instructions below (Minecraft servers will be created by the instructor):
+
+If you are bringing in your own computer, please follow the following steps to set up your client (**installation will take roughly ~30 minutes**):
 
 1. Download miniconda from [here](https://conda.io/miniconda.html)
 1. Open a conda prompt and type 
     ```bash
     conda create -n teachcraft python=2.7
     ```
-1. Clone or download the repository: 
+1. Activate the conda environment:
+    ```bash
+    conda activate teachcraft
+    ```
+1. Clone or download the repository (~200MB, will take some time so please be patient :sweat_smile:): 
     ```bash
     git clone https://github.com/akzaidi/minecraft_workshop.git
     ```
-1. Navigate to the minecraft workshop using the prompt
+    - if you don't have `git`, you can download the repository by visiting [the following link](https://github.com/akzaidi/minecraft_workshop/archive/master.zip) and downloading it as a zip file to a location of your choice and then extract (using a program such as [7zip](https://www.7-zip.org/download.html))
+1. Navigate to the minecraft workshop client directory using the `conda` prompt
     * On windows:
-        ```bash
-        chdir minecraft_workshop\TeachCraft-ClientLauncher
+        ```CMD
+        chdir minecraft_workshop\client_launcher
         python launcher.py
     * On macOS/Linux:
         ```bash
-        cd minecraft/TeachCraft-ClientLauncher
+        cd minecraft/client_launcher
         python launcher.py
         ```
+    * Make a note of the username you entered when prompted
 
 The first time you run the launcher it will take some time. The following sessions should be quick.
 
@@ -60,6 +68,4 @@ If you have any questions, please post an issue [here](https://github.com/akzaid
 
 ## Day Three - Loops and Recursion
 
-
-* **For loops**
-    - _Lab 6, Pyramids of Giza: Building multiple pyramids of different sizes using for loops_
+To be posted.
