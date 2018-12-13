@@ -1,0 +1,14 @@
+<html>
+<head><title>404 Not Found</title></head>
+<body>
+<h1>404 Not Found</h1>
+<ul>
+<li>Code: NoSuchKey</li>
+<li>Message: The specified key does not exist.</li>
+<li>Key: tv/twitch/twitch-platform/6.5/twitch-platform-6.5.jar</li>
+<li>RequestId: 30F69DD743384D03</li>
+<li>HostId: h8j7miJlJsMu4b3iz3FnNXpRDZ/rpO59aMncMfh2vGgYcNwkHoT5kSg+ACGxokrhDH/DPyPMd/A=</li>
+</ul>
+<hr/>
+</body>
+</html>
