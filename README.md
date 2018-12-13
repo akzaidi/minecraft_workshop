@@ -11,11 +11,9 @@ Each day of class consists of instruction and two hands on labs. Participants wi
 
 ## IMPORTANT: Local Setup
 
-Three computers with the Minecraft client will be provided during the workshop. However, it is recommended you bring your own Windows / MacOS computer and install python 2.7 and the Minecraft client by following the instructions below (Minecraft servers will be created by the instructor):
+It is recommended that each participant bring her/his own Windows / MacOS computer and install python 2.7 and the Minecraft client by following the instructions below (Minecraft servers will be created by the instructor):
 
-If you are bringing in your own computer, please follow the following steps to set up your client (**installation will take roughly ~30 minutes**):
-
-**NOTE**: You should choose either to download miniconda or Anaconda. Miniconda only has a command line interface, whereas Anaconda has a full GUI interface. Either option works fine for the course, but if you're non comfortable with the command line, Anaconda will be easier to use (although is a much larger download).
+**NOTE: installation will take roughly ~30 minutes**. You should choose either to download miniconda or Anaconda. Miniconda only has a command line interface, whereas Anaconda has a full GUI interface. Either option works fine for the course, but if you're not comfortable with the command line, Anaconda will be easier to use (although is a much larger download, and at some point you will have to use the command line anyway :wink:).
 
 1. Download **either** [miniconda](https://conda.io/miniconda.html) or [Anaconda](https://www.anaconda.com/download/):
     * miniconda: ![](imgs/1-conda-download.PNG)
