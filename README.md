@@ -15,12 +15,30 @@ Three computers with the Minecraft client will be provided during the workshop. 
 
 If you are bringing in your own computer, please follow the following steps to set up your client (**installation will take roughly ~30 minutes**):
 
-1. Download miniconda from [here](https://conda.io/miniconda.html)
-1. Open a conda prompt and type 
-    ```bash
-    conda create -n teachcraft python=2.7
-    ```
+**NOTE**: You should choose either to download miniconda or Anaconda. Miniconda only has a command line interface, whereas Anaconda has a full GUI interface. Either option works fine for the course, but if you're non comfortable with the command line, Anaconda will be easier to use (although is a much larger download).
+
+1. Download miniconda or Anaconda from [here](https://conda.io/miniconda.html):
+    ![](imgs/1-conda-download.PNG)
+    * either Python 2.7 or 3.7 will work fine.
+1. Follow the installer instructions:
+    ![](imgs/2-installer.PNG)
+    * for Windows, **don't** add Anaconda to your path:
+    ![](imgs/3-prompt-path.PNG)
+1. If you chose miniconda: 
+    - If you're on Windows: search for `Anaconda Prompt` in your applications.
+    - If you're on macOS, just open a terminal
+    - In the terminal prompt type 
+        ```bash
+        conda create -n teachcraft python=2.7
+        ```
+1. If you **didn't use miniconda** and instead chose the full Anaconda distribution, search for and open `Anaconda navigator`:
+    ![](imgs/2b-anaconda-navigator.png)
+    - Click on environments on the left side, and then click on create
+    - Create an evnrionment with name `teachcraft` and Python version 2.7
+    ![](imgs/3b-create-navigator.png)
 1. Activate the conda environment:
+    - If you're on Windows: search for `Anaconda Prompt` in your applications.
+    - If you're on macOS, just open a terminal
     ```bash
     conda activate teachcraft
     ```
@@ -78,3 +96,9 @@ If you have any questions, please post an issue [here](https://github.com/akzaid
 ## Day Three - Loops and Recursion
 
 To be posted.
+
+## Additional Resources
+
+- [miner](https://github.com/ropenscilabs/miner): R API for minecraft
+    * [Book](https://github.com/ropenscilabs/miner): R Programming with Minecraft
+- 
