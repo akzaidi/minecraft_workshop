@@ -43,6 +43,7 @@ If you are bringing in your own computer, please follow the following steps to s
     ```bash
     conda activate teachcraft
     ```
+    - **IMPORANT**: all commands listed below should be run after activating `teachcraft` (and if you're on Windows only using the `Anaconda prompt`)
 1. Clone or download the repository (~200MB, will take some time so please be patient :sweat_smile:): 
     ```bash
     git clone https://github.com/akzaidi/minecraft_workshop.git
@@ -102,4 +103,3 @@ To be posted.
 
 - [miner](https://github.com/ropenscilabs/miner): R API for minecraft
     * [Book](https://github.com/ropenscilabs/miner): R Programming with Minecraft
-- 
