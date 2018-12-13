@@ -17,8 +17,9 @@ If you are bringing in your own computer, please follow the following steps to s
 
 **NOTE**: You should choose either to download miniconda or Anaconda. Miniconda only has a command line interface, whereas Anaconda has a full GUI interface. Either option works fine for the course, but if you're non comfortable with the command line, Anaconda will be easier to use (although is a much larger download).
 
-1. Download miniconda or Anaconda from [here](https://conda.io/miniconda.html):
-    ![](imgs/1-conda-download.PNG)
+1. Download **either** [miniconda](https://conda.io/miniconda.html) or [Anaconda](https://www.anaconda.com/download/):
+    * miniconda: ![](imgs/1-conda-download.PNG)
+    * Anaconda: ![](imgs/1b-anaconda-installer.png)
     * either Python 2.7 or 3.7 will work fine.
 1. Follow the installer instructions:
     ![](imgs/2-installer.PNG)
