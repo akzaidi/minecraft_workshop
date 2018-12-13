@@ -40,6 +40,14 @@ If you are bringing in your own computer, please follow the following steps to s
         python launcher.py
         ```
     * Make a note of the username you entered when prompted
+1. Move into the labs directory:
+    * On windows:
+        ```CMD
+        chdir ..\labs 
+    * On macOS/Linux:
+        ```bash
+        cd ../labs
+        ```
 
 The first time you run the launcher it will take some time. The following sessions should be quick.
 

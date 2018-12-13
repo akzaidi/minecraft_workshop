@@ -1,29 +1,12 @@
-[16:37:08] [Client thread/INFO]: Setting user: azaidi
-[16:37:08] [Client thread/INFO]: (Session ID is token:null:null)
-[16:37:09] [Client thread/INFO]: LWJGL Version: 2.9.4
-[16:37:10] [Client thread/INFO]: Reloading ResourceManager: Default
-[16:37:10] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[16:37:10] [Thread-6/INFO]: Initializing LWJGL OpenAL
-[16:37:10] [Thread-6/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[16:37:10] [Thread-6/INFO]: OpenAL initialized.
-[16:37:10] [Sound Library Loader/INFO]: Sound engine started
-[16:37:11] [Client thread/INFO]: Created: 512x512 textures-atlas
-[16:37:18] [Client thread/INFO]: Connecting to 40.112.53.114, 25565
-[16:37:19] [Server Connector #1/ERROR]: Couldn't connect to server
-java.net.ConnectException: Connection refused: 40.112.53.114/40.112.53.114:25565
-	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[?:1.8.0_121]
-	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717) ~[?:1.8.0_121]
-	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:208) ~[netty-all-4.0.23.Final.jar:4.0.23.Final]
-	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:287) ~[netty-all-4.0.23.Final.jar:4.0.23.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:528) ~[netty-all-4.0.23.Final.jar:4.0.23.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468) ~[netty-all-4.0.23.Final.jar:4.0.23.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382) ~[netty-all-4.0.23.Final.jar:4.0.23.Final]
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354) ~[netty-all-4.0.23.Final.jar:4.0.23.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116) ~[netty-all-4.0.23.Final.jar:4.0.23.Final]
-	at java.lang.Thread.run(Thread.java:745) ~[?:1.8.0_121]
-[16:37:40] [Client thread/INFO]: Connecting to 40.112.53.114, 25565
-[16:37:41] [Client thread/INFO]: [CHAT] azaidi joined the game
-[16:53:57] [Client thread/INFO]: [CHAT] Saved screenshot as 2018-12-12_16.53.57.png
-[16:54:08] [Client thread/INFO]: Stopping!
-[16:54:08] [Client thread/INFO]: SoundSystem shutting down...
-[16:54:08] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[17:23:00] [Client thread/INFO]: Setting user: azaidi
+[17:23:00] [Client thread/INFO]: (Session ID is token:null:null)
+[17:23:01] [Client thread/INFO]: LWJGL Version: 2.9.4
+[17:23:02] [Client thread/INFO]: Reloading ResourceManager: Default
+[17:23:02] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[17:23:02] [Thread-6/INFO]: Initializing LWJGL OpenAL
+[17:23:02] [Thread-6/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[17:23:02] [Thread-6/INFO]: OpenAL initialized.
+[17:23:03] [Sound Library Loader/INFO]: Sound engine started
+[17:23:04] [Client thread/INFO]: Created: 512x512 textures-atlas
+[17:23:28] [Client thread/INFO]: Connecting to 40.112.53.114, 25565
+[17:23:29] [Client thread/INFO]: [CHAT] azaidi joined the game
