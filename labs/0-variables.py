@@ -5,7 +5,6 @@ server_address = "40.112.53.114"
 username = "azaidi"
 
 mc = minecraft.Minecraft.create(address=server_address, name=username)
-current_pos = mc.player.get
 pos = mc.player.getPos()
 print pos
 
