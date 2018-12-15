@@ -79,7 +79,7 @@ If you have any questions, please post an issue [here](https://github.com/akzaid
 * **Defining and structuring variables for teleportation and flight** 
     - _Lab 2, build a house: Simple arithmetic for building complicated objects_
 * **Chatting with Strings: Interacting with other players**
-    - _Extra lab: Creating a guessing game using the chatbox_
+    - _Extra lab: Chatting with strings and running far_
 
 
 ****
