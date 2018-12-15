@@ -16,7 +16,7 @@ ao:2
 renderClouds:true
 resourcePacks:[]
 incompatibleResourcePacks:[]
-lastServer:40.112.53.114
+lastServer:13.72.65.211
 lang:en_US
 chatVisibility:0
 chatColors:true
