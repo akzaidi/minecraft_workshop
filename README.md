@@ -15,57 +15,38 @@ It is recommended that each participant bring her/his own Windows / MacOS comput
 
 **NOTE: installation will take roughly ~30 minutes**. You should choose either to download miniconda or Anaconda. Miniconda only has a command line interface, whereas Anaconda has a full GUI interface. Either option works fine for the course, but if you're not comfortable with the command line, Anaconda will be easier to use (although is a much larger download, and at some point you will have to use the command line anyway :wink:).
 
-1. Download **either** [miniconda](https://conda.io/miniconda.html) or [Anaconda](https://www.anaconda.com/download/):
+1. Download the course materials as a zip file:
+    - you'll need an unzip application to extract the archive. You can use a program such as [7zip](https://www.7-zip.org/download.html)
+    - download the material using [the following link](https://github.com/akzaidi/minecraft_workshop/archive/master.zip)
+    - unzip the folder using 7zip or the application of your choice (usually right click and extract)
+2. Download [miniconda](https://conda.io/miniconda.html) from the following link:
     * miniconda: ![](imgs/1-conda-download.PNG)
-    * Anaconda: ![](imgs/1b-anaconda-installer.png)
     * either Python 2.7 or 3.7 will work fine.
-1. Follow the installer instructions:
+3. Follow the installer instructions:
     ![](imgs/2-installer.PNG)
     * for Windows, **don't** add Anaconda to your path:
     ![](imgs/3-prompt-path.PNG)
-1. If you chose miniconda: 
+4. Launch the conda prompt: 
     - If you're on Windows: search for `Anaconda Prompt` in your applications.
     - If you're on macOS, just open a terminal
-    - In the terminal prompt type 
-        ```bash
-        conda create -n teachcraft python=2.7
-        ```
-1. If you **didn't use miniconda** and instead chose the full Anaconda distribution, search for and open `Anaconda navigator`:
-    ![](imgs/2b-anaconda-navigator.png)
-    - Click on environments on the left side, and then click on create
-    - Create an evnrionment with name `teachcraft` and Python version 2.7
-    ![](imgs/3b-create-navigator.png)
-1. Activate the conda environment:
-    - If you're on Windows: search for `Anaconda Prompt` in your applications.
-    - If you're on macOS, just open a terminal
+5. Navigate to the minecraft workshop client directory using the `conda` prompt
+    ```bash
+    cd minecraft_workshop/client_launcher
+    ```
+    - it might be `cd minecraft_workshop-master/minecraft_workshop-master/client_launcher`, just double check in your file explorer what the name is of the directory and enter that in the prompt
+6. Install the conda environment:
+    ```bash
+    conda env update -f environment.yml
+    ```
+7. Activate the environment:
     ```bash
     conda activate teachcraft
     ```
-    - **IMPORANT**: all commands listed below should be run after activating `teachcraft` (and if you're on Windows only using the `Anaconda prompt`)
-1. Clone or download the repository (~200MB, will take some time so please be patient :sweat_smile:): 
+8. Start the minecraft client:
     ```bash
-    git clone https://github.com/akzaidi/minecraft_workshop.git
+    python launcher.py
     ```
-    - if you don't have `git`, you can download the repository by visiting [the following link](https://github.com/akzaidi/minecraft_workshop/archive/master.zip) and downloading it as a zip file to a location of your choice and then extract (using a program such as [7zip](https://www.7-zip.org/download.html))
-1. Navigate to the minecraft workshop client directory using the `conda` prompt
-    * On windows:
-        ```CMD
-        chdir minecraft_workshop\client_launcher
-        python launcher.py
-    * On macOS/Linux:
-        ```bash
-        cd minecraft/client_launcher
-        python launcher.py
-        ```
     * Make a note of the username you entered when prompted
-1. Move into the labs directory:
-    * On windows:
-        ```CMD
-        chdir ..\labs 
-    * On macOS/Linux:
-        ```bash
-        cd ../labs
-        ```
 
 The first time you run the launcher it will take some time. The following sessions should be quick.
 
