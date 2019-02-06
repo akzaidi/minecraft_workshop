@@ -1,0 +1,10 @@
+name: teachcraft
+channels:
+    - conda-forge
+    - cyclus
+dependencies:
+    - python=2.7
+    - pip
+    - java-jdk
+    - git
+
