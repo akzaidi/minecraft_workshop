@@ -1,7 +1,7 @@
 Labs
 ========
 
-You can run the labs using your own local jupyter instance (just type jupyter notebook in the anaconda prompt and open the labs) or use colaboratory.
+You can run the labs using your own local jupyter instance (type `jupyter notebook` in the anaconda prompt which will open a notebook server, and then open each lab) or use colaboratory (a hosted jupyter service provided for free by Google).
 
 **NOTE**: if you're using Jupyter, ignore the cells marked `git clone...` and `os.chdir`, since you'll already have the dependencies and the correct path to run the labs, but don't skip those if you're using Colaboratory.
 
