@@ -16,9 +16,9 @@ It is recommended that each participant bring her/his own Windows / MacOS comput
 **NOTE: installation will take roughly ~30 minutes**. You should choose either to download miniconda or Anaconda. Miniconda only has a command line interface, whereas Anaconda has a full GUI interface. Either option works fine for the course, but if you're not comfortable with the command line, Anaconda will be easier to use (although is a much larger download, and at some point you will have to use the command line anyway :wink:).
 
 1. Download the course materials as a zip file:
-    - you'll need an unzip application to extract the archive. You can use a program such as [7zip](https://www.7-zip.org/download.html)
     - download the material using [the following link](https://github.com/akzaidi/minecraft_workshop/archive/master.zip)
     - unzip the folder using 7zip or the application of your choice (usually right click and extract)
+        - you'll need an unzip application to extract the archive. You can use a program such as [7zip](https://www.7-zip.org/download.html)
 2. Download [miniconda](https://conda.io/miniconda.html) from the following link:
     * miniconda: ![](imgs/1-conda-download.PNG)
     * either Python 2.7 or 3.7 will work fine.
@@ -28,12 +28,13 @@ It is recommended that each participant bring her/his own Windows / MacOS comput
     ![](imgs/3-prompt-path.PNG)
 4. Launch the conda prompt: 
     - If you're on Windows: search for `Anaconda Prompt` in your applications.
-    - If you're on macOS, just open a terminal
+    - If you're on macOS, just open a terminal (spotlight -> terminal)
 5. Navigate to the minecraft workshop client directory using the `conda` prompt
     ```bash
-    cd minecraft_workshop/client_launcher
+    cd minecraft_workshop/client_launcher [macOS/Ubuntu]
+    chdir minecraft_workshop/client_launcher [Windows]
     ```
-    - it might be `cd minecraft_workshop-master/minecraft_workshop-master/client_launcher`, just double check in your file explorer what the name is of the directory and enter that in the prompt
+    - it might be `chdir minecraft_workshop-master/minecraft_workshop-master/client_launcher`, just double check in your file explorer what the name is of the directory and enter that in the prompt
 6. Install the conda environment:
     ```bash
     conda env update -f environment.yml
