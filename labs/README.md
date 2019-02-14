@@ -1,9 +1,14 @@
 Labs
 ========
 
+You can run the labs using your own local jupyter instance (just type jupyter notebook in the anaconda prompt and open the labs) or use colaboratory.
+
+**NOTE**: if you're using Jupyter, ignore the cells marked `git clone...` and `os.chdir`, since you'll already have the dependencies and the correct path to run the labs, but don't skip those if you're using Colaboratory.
+
+
 ## Colaboratory Links
 
-You'll need to create a Google account to run the labs on Colaboratory 
+You'll need to have a Google/gmail account to run the following labs on Colaboratory. Please replace the empty username string with the name of the character you created when you ran `python launcher.py` in the earlier instructions, and change the runtime to Python 2.
 
 1. [Lab 0 : Teleporting with Variables](https://colab.research.google.com/github/akzaidi/minecraft_workshop/blob/master/labs/Lab0-Teleporting_with_variables.ipynb)
 1. [Lab 1 : Building with Math](https://colab.research.google.com/github/akzaidi/minecraft_workshop/blob/master/labs/Lab1-Building_with_Math.ipynb)
